@@ -11,7 +11,8 @@ header {
   margin-top: 10px;
 }
 
-h1, h3 {
+h1,
+h3 {
   text-align: center;
   margin: 0;
   padding: 10px 0;
@@ -25,7 +26,7 @@ div {
 
 ul {
   padding: 0;
-  margin:12px 0;
+  margin: 12px 0;
 }
 
 li {
@@ -42,9 +43,25 @@ main {
 
 
 /* li要素にスタイルを適用 */
+li {
+  border-color: #192F60;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+}
 
 /* header要素にスタイルを適用 */
+header {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
 
 /* div要素にスタイルを適用 */
+div {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 
 /* main要素内にスタイルを適用 */
+
+要素の下部2ヶ所の角を半径20pxで丸めてください。 回答例
